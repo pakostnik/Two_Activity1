@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_second"
+        android:id="@+id/button2"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:onClick="onSecond"
+        android:layout_marginBottom="83dp" />
+
+
+</RelativeLayout>
